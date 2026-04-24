@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head prefix="og: http://ogp.me/ns#">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&amp;family=Lora:ital,wght@0,400..700;1,400..700&amp;family=Montserrat:ital,wght@0,100..900;1,100..900&amp;family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&amp;display=swap"
+        rel=stylesheet>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&amp;display=swap"
+        rel=stylesheet>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&amp;family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&amp;display=swap"
+        rel=stylesheet>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap&amp;subset=cyrillic,cyrillic-ext"
+        rel=stylesheet>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap&amp;subset=cyrillic,cyrillic-ext"
+        rel=stylesheet>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel=stylesheet>
+    <link rel=stylesheet href="./css/press.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel=stylesheet>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <link rel=preconnect href="https://fonts.googleapis.com">
+    <link rel=preconnect href="https://fonts.gstatic.com" crossorigin>
+    <link rel=icon href="./img/favicon/favicon.ico" type="image/x-icon">
+    <link rel=icon href="./img/favicon/android-chrome-192x192.webp" sizes=192x192>
+    <link rel=icon href="./img/favicon/android-chrome-512x512.webp" sizes=512x512>
+    <link rel=stylesheet href="./css/question-block.css">
+    <link rel=stylesheet href="./css/style-form.css">
+    <link rel=stylesheet href="./css/index.css">
+    <title>Press</title>
+</head>
+
+<body>
+    <div>
+        <div class=wrapper><audio id=background-music loop preload=auto>
+                <source src="./audio/jazz_1.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+            </audio>
+            <div class=music_btn_wrap><button id=mute-button>
+                    <div class=vinil_wrap><img src="./img/press/vinil.webp"></div>
+                    <div class=btn_vol_wrap><img src="./img/press/play.png" alt="Звук on" class=sound-icon
+                            id=sound-on style="display: none"><img src="./img/press/pause.png" alt="Звук off" class=sound-icon
+                            id=sound-off style="display: inline;"></div>
+                </button></div>
+            <div class=__container>
+                <section class="first__section section_flex">
+                    <div class=first__header>
+                        <p>Видання № 1</p>
+                        <p>Субота 11.04.2026 Року</p>
+                    </div>
+                    <div class=first__title>
+                        <p>Весільна Хроніка</p>
+                    </div>
+                    <div class=first__name_wrap data-heart=section1 data-heart-dark=section1>
+                        <h2><span>Володя та Олеся</span></h2>
+                        <h3>одружуються</h3>
+                    </div>
+                    <div class=first__img_wrap>
+                        <p class="first_img_text bg_text">не пройшло і 10 років</p><img src="./img/press/1.webp"
+                            alt="">
+                    </div>
+                </section>
+                <section class="info__section section_flex">
+                    <!-- <div class="info__header header_section">
+                        <p>Видання № 1</p>
+                        <p>Субота 11.04.2026 Року</p>
+                    </div> -->
+                    <div class=info_date_wrap>
+                        <div class=_date_wrap>
+                            <div class=_date_img><img src="./img/press/data_bg.webp" alt=""></div>
+                            <div class=_date_text_wrap>
+                                <div class=_date_text_title><span>Save</span><span>the</span><span>Date</span></div>
+                                <div class=_date_subtext_title>
+                                    <p>22 Серпня 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=info_text_wrap>
+                            <h2 class="_text_title title_style">Дорогі гості</h2>
+                            <div class="_text_wrap first__letter"> у цей особливий день ми мріємо бути в оточенні
+                                найрідніших та найдорожчих людей. З великим задоволенням запрошуємо вас розділити з нами
+                                день народження нашої родини! Ми щиро віримо і сподіваємось, що цей день стане красивим
+                                початком нашого спільного життя. </div>
+                        </div>
+                    </div>
+                    <div class=info_local_wrap>
+                        <div class=__local_item_wrap>
+                            <h3 class="__local_title title_style">Локація</h3>
+                            <div class=__local_text><span>Львів, площа Євгена Маланюка, 7</span><span>Готель Шопен</span></div><a href="https://www.google.com/maps/place/Готель+Шопен/@49.8375282,24.0281506,17z/data=!4m9!3m8!1s0x473add6fab026f97:0xcdcb82effc1c304a!5m2!4m1!1i2!8m2!3d49.8375282!4d24.0281506!16s%2Fg%2F1tf56n9s?entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D" target=_blank
+                                class=local__link>Відкрити карту</a>
+                        </div>
+                        <div class=_local_img>
+                            <p class="_local_img_text bg_text">наш день</p><img src="./img/press/loc_1.webp" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="timing_section section_flex">
+                    <!-- <div class="timing__header header_section">
+                        <p>Видання № 1</p>
+                        <p>Субота 11.04.2026 Року</p>
+                    </div> -->
+                    <h2 class="timing_title title_style">Програма дня</h2>
+                    <div class=timing_wrap>
+                        <p class="timing_bg_text bg_text">це буде незабутньо</p>
+                        <div class=timing__item>
+                            <div class=_time_wrap>
+                                <div class=_time_img><img src="./img/icons/_1.svg" alt=""></div>
+                                <p>13:00</p>
+                            </div><span class=time_line></span>
+                            <div class=_time_content_wrap>
+                                <h3 class=_time_title>Розпис</h3>
+                                <p>Розпис в загсі</p>
+                            </div>
+                        </div>
+                        <div class=timing__item>
+                            <div class=_time_wrap>
+                                <div class=_time_img><img src="./img/icons/_2.svg" alt=""></div>
+                                <p>14:00</p>
+                            </div><span class=time_line></span>
+                            <div class=_time_content_wrap>
+                                <h3 class=_time_title>Церемонія шлюбу</h3>
+                                <p>В церкві</p>
+                            </div>
+                        </div>
+                        <div class=timing__item>
+                            <div class=_time_wrap>
+                                <div class=_time_img><img src="./img/icons/_3.svg" alt=""></div>
+                                <p>16:00</p>
+                            </div><span class=time_line></span>
+                            <div class=_time_content_wrap>
+                                <h3 class=_time_title>Банкет</h3>
+                                <p>На вас чекатимуть смачні страви, святкова програма та веселощі.</p>
+                            </div>
+                        </div>
+                        <!-- <div class=timing__item>
+                            <div class=_time_wrap>
+                                <div class=_time_img><img src="./img/icons/_4.svg" alt=""></div>
+                                <p>14:30</p>
+                            </div><span class=time_line></span>
+                            <div class=_time_content_wrap>
+                                <h3 class=_time_title>Збір гостей</h3>
+                                <p>Гості збираються у парковій зоні біля місця церемонії.</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </section>
+                <section class="section_game section_flex">
+                    <!-- <div class="game__header header_section">
+                        <p>Видання № 1</p>
+                        <p>Субота 11.04.2026 Року</p>
+                    </div> -->
+                    <h2 class="game_title title_style">Знайдіть 10 слів <p class="game_bg_text bg_text">в кінці сюрприз
+                        </p>
+                    </h2>
+                    <div id=words-data class=words_data_wrap
+                        data-words="весілля,наречена,обручка,букет,танець,кохання,наречений,торт,обітниця,фата"></div>
+                    <div class=flipper_wrap>
+                        <div class=grid-wrapper><canvas id=lineCanvas></canvas>
+                            <div class=grid id=grid></div>
+                        </div>
+                        <div class=flipper_img>
+                            <p class="flipper_bg_text bg_text">це ми</p>
+                            <div class=close_flipper onclick="closePopup2()"><span></span><span></span></div><img
+                                src="./img/press/countdown_bg.webp" alt="">
+                        </div>
+                    </div>
+                    <div class=word-list id=wordList></div>
+                </section>
+                <section class=section_drescode>
+                    <!-- <div class="drescode__header header_section">
+                        <p>Видання № 1</p>
+                        <p>Субота 11.04.2026 Року</p>
+                    </div> -->
+                    <div class=drescode_item_info>
+                        <div class=_drescode_info_img><img src="./img/press/dresscode/_1.webp" alt=""></div>
+                        <div class=_drescode_info_wrap>
+                            <h2 class="_info__title title_style">Дрес код</h2>
+                            <div class=_info__text_wrap>
+                                <p class="_info__text first__letter">Будемо вдячні, якщо ви оберете вбрання, що
+                                    підтримує атмосферу нашого свята.</p>
+                                <p class=_info__text>Ми будемо раді, якщо ви надасте перевагу світлим пастельним
+                                    відтінкам, які відповідають стилю весілля.Надихайтесь нашо</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=drescode_item>
+                        <div class=item_col_wrap data-heart=section2 data-heart-dark=section2>
+                            <div class=_color_list>
+                                <div class=_color_item style="background-color: #fff"></div>
+                                <div class=_color_item style="background-color: #E7DDD4"></div>
+                                <div class=_color_item style="background-color: #B6A59D"></div>
+                                <div class=_color_item style="background-color: #BF9E8D"></div>
+                                <div class=_color_item style="background-color: #40362D"></div>
+                                <div class=_color_item style="background-color: #040404"></div>
+                            </div>
+                            <div class=_color__text_wrap>
+                                <p>Обирайте те, у чому вам буде зручно танцювати, обійматися й радіти з нами.</p>
+                            </div>
+                        </div>
+                        <div class=item_col_img>
+                            <p class="dress_bg_text bg_text">зовсім скоро</p><img src="./img/press/dresscode/_2.webp"
+                                alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class=section_countdown>
+                <div class=section_countdown_fixed>
+                    <div class=countdown_bg><img src="./img/press/countdown_bg.webp" alt=""></div>
+                    <div class=countdown_wrap>
+                        <h3 class="countdown__title ">До весілля залишилось</h3>
+                        <div class=time__wrap>
+                            <div class=time__item><span class=day></span><span></span></div>
+                            <div class=time__item><span class=hour></span><span></span></div>
+                            <div class=time__item><span class=minut></span><span></span></div>
+                            <div class=time__item><span class=second></span><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class=__container>
+                <section class=section_organizator>
+                    <!-- <div class="organizator__header header_section">
+                        <p>Видання № 1</p>
+                        <p>Субота 11.04.2026 Року</p>
+                    </div> -->
+                    <div class=organizator_img><img src="./img/press/org_bg.webp" alt=""></div>
+                    <div class=organizator_wrap>
+                        <div class=organizator_item>
+                            <h2 class="_item__title title_style">Організатор <p class="organizator_bg_text bg_text">наш
+                                </p>
+                            </h2>
+                            <div class=_item__text_wrap>
+                                <p class="_info__text first__letter">Якщо у вас виникнуть питання або знадобиться
+                                    допомога у день весілля, звертайтеся до нас.</p>
+                            </div><a href="tel:+380631234567" class=_item_link>+380111111111</a>
+                        </div>
+                        <div class=_organizator_img><img src="./img/press/org_1.webp" alt=""></div>
+                    </div>
+                    <div class=wish_wrap>
+                        <div class=_wish_img><img src="./img/press/wish_1.webp" alt=""></div>
+                        <div class=wish_item>
+                            <h2 class="_item__title title_style">Побажання <p class="wish_bg_text bg_text">деталі</p>
+                            </h2>
+                            <div class=_item__text_wrap>
+                                <p class="_info__text first__letter">Ми щиро вдячні за ваше бажання привітати нас. Якщо
+                                    ви хотіли б зробити приємний жест, замість квітів будемо раді пляшці хорошого вина
+                                    або благодійному внеску на підтримку тих, хто цього потребує. Це буде найкращий
+                                    подарунок для нас</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class=section__atantion data-heart=section4 data-heart-dark=section4>
+                    <!-- <div class="atantion__header header_section">
+                        <p>Видання № 1</p>
+                        <p>Субота 11.04.2026 Року</p>
+                    </div> -->
+                    <div class=atantion_img><img src="./img/press/atan_1.webp" alt=""></div>
+                    <div class=atantion_main_wrap>
+                        <h2 class="atantion_title title_style">Гірко <p class="atantion_bg_text bg_text">дуже просимо
+                            </p>
+                        </h2>
+                        <div class=atantion_text_wrap>
+                            <p class="_info__text first__letter">Просимо утриматися від гучних вигуків «Гірко!» Ми
+                                хочемо, щоб цей день був наповнений щирими емоціями та затишною атмосферою.</p>
+                        </div>
+                    </div>
+                    <div class="atantion_img atantion_img_two"><img src="./img/press/atan_2.webp" alt=""></div>
+                </section>
+                <section class=section__form data-heart=section3 data-heart-dark=section3>
+                    <!-- <div class="form__header header_section">
+                        <p>Видання № 1</p>
+                        <p>Субота 11.04.2026 Року</p>
+                    </div> -->
+                    <div class=form_wrap>
+                        <h2 class="form__title title_style">Анкета</h2>
+                        <div class=form_text_wrap>
+                            <p>Будь ласка, підтвердьте свою присутність до 1. 09. 2025 року.</p>
+                        </div>
+                        <form id=contactForm class=form>
+                            <div>
+                                <div class=form_data type=TEXT id=0 required><label for=text_0
+                                        class=input__title>Прізвище та імʼя</label><input type=text id=text_0
+                                        name=text_0 required class=input_name placeholder="Тарас Шевченко"><span
+                                        class=error_message style="display: none">Поле не повинно бути пустим</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="form_data input_radio__wrap" type=RADIO id=1 required>
+                                    <p class="input__title input_question">Чи зможете ви бути присутнім?</p>
+                                    <div class=radio_one><input type=radio class=input__radio id=radio_1_0 name=radio_1
+                                            valueid=0><label for=radio_1_0 class=radio__title>Так, зможу</label></div>
+                                    <div class=radio_one><input type=radio class=input__radio id=radio_1_1 name=radio_1
+                                            valueid=1><label for=radio_1_1 class=radio__title>Повідомлю пізніше</label>
+                                    </div>
+                                    <div class=radio_tree><input type=radio class=input__radio id=radio_1_2 name=radio_1
+                                            valueid=2><label for=radio_1_2 class=radio__title>Не зможу прийти</label>
+                                    </div><span class=error_message style="display: none">Виберіть один з
+                                        варіантів</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class=form_data type=TEXT id=2><label for=text_2
+                                        class=input__title>Коментар</label><input type=text id=text_2 name=text_2
+                                        required class=input_name placeholder="Чекаю з нетерпінням"><span
+                                        class=error_message style="display: none">Поле не повинно бути пустим</span>
+                                </div>
+                            </div>
+                            <div class="form__btn__wrap btn__wrap"><button type=submit
+                                    class=btn__style>Відправити</button></div>
+                        </form>
+                        <script>const formMessages = { ready: "\u0413\u043E\u0442\u043E\u0432\u043E!", responseReceived: "\u0412\u0430\u0448\u0443 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u044C \u043E\u0442\u0440\u0438\u043C\u0430\u043D\u043E.", positiveSubtitle: "\u0429\u043E\u0431 \u043D\u0435 \u0437\u0430\u0431\u0443\u0442\u0438 \u043F\u0440\u043E \u043F\u043E\u0434\u0456\u044E \u0447\u0438 \u0432\u0447\u0430\u0441\u043D\u043E \u043F\u0440\u0438\u0432\u0456\u0442\u0430\u0442\u0438 \u2014 \u0434\u043E\u0434\u0430\u0439\u0442\u0435 \u043D\u0430\u0433\u0430\u0434\u0443\u0432\u0430\u043D\u043D\u044F \u0443 \u043A\u0430\u043B\u0435\u043D\u0434\u0430\u0440.", negateTitle: "\u0429\u043E\u0441\u044C \u043F\u0456\u0448\u043B\u043E \u043D\u0435 \u0437\u0430 \u043F\u043B\u0430\u043D\u043E\u043C...", negateSubtitle1: "\u041C\u0438 \u043D\u0435 \u043E\u0442\u0440\u0438\u043C\u0430\u043B\u0438 \u0432\u0430\u0448\u0443 \u0437\u0430\u044F\u0432\u043A\u0443.", negateSubtitle2: "\u041F\u0435\u0440\u0435\u0432\u0456\u0440\u0442\u0435 \u0456\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0430 \u043F\u043E\u0432\u0442\u043E\u0440\u0456\u0442\u044C \u0441\u043F\u0440\u043E\u0431\u0443", alreadySent: "\u041C\u0438 \u0432\u0436\u0435 \u043E\u0442\u0440\u0438\u043C\u0430\u043B\u0438 \u0432\u0430\u0448\u0443 \u0437\u0430\u044F\u0432\u043A\u0443" };</script>
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                        <script src="./js/common/form_v2.js"></script>
+                    </div>
+                </section>
+            </div>
+            <section class=last__section>
+                <div class=section_last_fixed>
+                    <!-- <div class="last__header header_section">
+                        <p>Видання № 1</p>
+                        <p>Субота 11.04.2026 Року</p>
+                    </div> -->
+                    <div class=last__bg><img src="./img/press/last_bg.webp" alt=""></div>
+                    <p class="last_text bg_text">З нетерпінням чекаємо на Вас у цей важливий день!</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div>
+        <div id=popup style="display:none" class=popup>
+            <div class=popup__wrap>
+                <div onclick="closePopup(this)" class=close_popup__btn_wrap><span></span><span></span></div>
+                <div class=img__wrap><img class=popupImage alt=""></div>
+                <p class=popup__title></p>
+                <p class=popup__subtitle></p><button id=showCalendarButton>Додати у календар</button>
+                <div id=calendarButtonsBlock style="display: none"><button onclick="addToGoogleCalendar()"><img
+                            src="./img/icon/google.png">Google Calendar</button><button
+                        onclick="addToAppleCalendar()"><img src="./img/icon/apple.png">Apple Calendar</button><button
+                        onclick="addToOutlookCalendar()"><img src="./img/icon/outlook.png">Outlook Calendar</button>
+                </div>
+            </div>
+        </div>
+        <script>const eventData = { title: "\u0412\u0435\u0441\u0456\u043B\u043B\u044F \u0410\u043D\u0442\u043E\u043D \u0442\u0430 \u041C\u0430\u0440\u0456\u044F", description: "\u0412\u0435\u0441\u0456\u043B\u043B\u044F \u0410\u043D\u0442\u043E\u043D \u0442\u0430 \u041C\u0430\u0440\u0456\u044F 25.06.2026", location: "\u0425\u0430\u0440\u043A\u0456\u0432, \u0423\u043A\u0440\u0430\u0457\u043D\u0430 \u0440\u0435\u0441\u0442\u043E\u0440\u0430\u043D \u043F\u0443\u0440\u0456\u0447\u0432\u0435\u043D\u0456", start: new Date("2026-04-11T13:00"), end: new Date("2026-04-11T22:00") };</script>
+    </div>
+    <script>const gridData = ["Ж", "Р", "О", "В", "А", "Н", "А", "Р", "Е", "Ч", "Е", "Н", "А", "А", "Л", "Ф", "А", "Т", "А", "Т", "Ь", "К", "П", "О", "І", "Ц", "А", "Н", "И", "І", "Г", "О", "І", "С", "М", "Н", "Л", "О", "Б", "І", "Т", "Н", "И", "Ц", "Я", "В", "Б", "У", "К", "Е", "Т", "У", "З", "І", "М", "Ь", "О", "К", "П", "Е", "О", "Ь", "М", "А", "Н", "А", "В", "Е", "С", "І", "Л", "Л", "Я", "Л", "Н", "Р", "О", "Б", "Р", "У", "Ч", "К", "А", "Д", "Н", "А", "Е", "І", "І", "И", "Е", "Е", "Ь", "Ц", "Ь", "А", "Л", "Я", "К", "С", "Р", "Н", "К", "Т", "Й", "Н", "П", "Е", "О", "Ь", "О", "А", "Л", "О", "Т", "О", "Р", "Т", "І", "Ь", "И", "Ь", "Й", "Л", "О", "К", "О", "Х", "А", "Н", "Н", "Я", "Ч", "Л", "Ь", "Й", "О", "Л", "Г", "Р", "Т", "Ь", "Т", "А", "Н", "Е", "Ц", "Ь", "А", "Т", "Я", "К", "Ь", "Р", "П", "Н", "А", "Р", "Е", "Ч", "Е", "Н", "И", "Й", "И"];</script>
+    <script>const json = { day: 22, month: 8, year: 2026, hour: 13, minute: 0 }; const timeTexts = { day: ["\u0434\u0435\u043D\u044C", "\u0434\u043D\u0456", "\u0434\u043D\u0456\u0432"], hour: ["\u0433\u043E\u0434\u0438\u043D\u0430", "\u0433\u043E\u0434\u0438\u043D\u0438", "\u0433\u043E\u0434\u0438\u043D"], minute: ["\u0445\u0432\u0438\u043B\u0438\u043D\u0430", "\u0445\u0432\u0438\u043B\u0438\u043D\u0438", "\u0445\u0432\u0438\u043B\u0438\u043D"], second: ["\u0441\u0435\u043A\u0443\u043D\u0434\u0430", "\u0441\u0435\u043A\u0443\u043D\u0434\u0438", "\u0441\u0435\u043A\u0443\u043D\u0434"] };</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="./js/press.js"></script>
+    <script src="./js/common/timer.js"></script>
+</body>
+
+</html>

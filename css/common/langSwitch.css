@@ -1,0 +1,1 @@
+.lang-switcher{position:fixed;right:20px;text-align:center;top:20px;transition:opacity .25s ease,transform .25s ease;z-index:9999}.lang-switcher.hidden{opacity:0;pointer-events:none;transform:translateY(-20px)}.lang-switcher select{background:#fff;border:1px solid #ccc;border-radius:6px;cursor:pointer;font-size:14px;padding-bottom:2px;padding-left:3px;padding-top:2px}
