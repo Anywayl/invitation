@@ -660,11 +660,11 @@
     document.querySelectorAll("[data-heart], [data-heart-dark]").forEach((s => {
         if (s.style.position = "relative", s.dataset.heart) {
             const t = s.dataset.heart;
-            e[t] && l(s, e[t], "/img/press/heart_1.svg", 0)
+            e[t] && l(s, e[t], "./img/press/heart_white.svg", 0)
         }
         if (s.dataset.heartDark) {
             const e = s.dataset.heartDark;
-            t[e] && l(s, t[e], "/img/press/heart_dark.png", 500)
+            t[e] && l(s, t[e], "./img/press/heart_black.png", 500)
         }
     }))
 }();
