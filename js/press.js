@@ -1,321 +1,321 @@
-! function() {
+! function () {
     "use strict";
     const e = {
-            section1: [{
-                top: {
-                    default: "-15%",
-                    sm: "-20%"
-                },
-                left: {
-                    default: "-5%",
-                    sm: "2%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                top: {
-                    default: "-2%",
-                    sm: "-30%"
-                },
-                left: {
-                    default: "17%",
-                    sm: "64%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "10%",
-                    sm: "-50%"
-                },
-                left: {
-                    default: "-3%",
-                    sm: "30%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "-18%",
-                    sm: "-50%"
-                },
-                left: {
-                    default: "34%",
-                    sm: "70%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                top: {
-                    default: "-17%",
-                    sm: "-15%"
-                },
-                right: {
-                    default: "42%",
-                    sm: "7%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "-5%",
-                    sm: "13%"
-                },
-                right: {
-                    default: "22%",
-                    sm: "-12%"
-                },
-                size: {
-                    default: 22,
-                    sm: 0
-                },
-                delay: 50
-            }, {
-                top: {
-                    default: "-5%",
-                    sm: "13%"
-                },
-                right: {
-                    default: "0%",
-                    sm: "-12%"
-                },
-                size: {
-                    default: 22,
-                    sm: 0
-                },
-                delay: 50
-            }],
-            section2: [{
-                bottom: {
-                    default: "40px",
-                    sm: "-90%"
-                },
-                left: {
-                    default: "147px",
-                    sm: "5%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "38px",
-                    sm: "-113%"
-                },
-                right: {
-                    default: "164px",
-                    sm: "2%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "18px",
-                    sm: "-240%"
-                },
-                right: {
-                    default: "30px",
-                    sm: "-3%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "18px",
-                    sm: "-250%"
-                },
-                left: {
-                    default: "30px",
-                    sm: "10%"
-                },
-                size: {
-                    default: 0,
-                    sm: 17
-                },
-                delay: 50
-            }],
-            section3: [{
-                top: {
-                    default: "26%",
-                    sm: "99px"
-                },
-                left: {
-                    default: "-7%",
-                    sm: "3%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                top: {
-                    default: "46%",
-                    sm: "99px"
-                },
-                left: {
-                    default: "-7%",
-                    sm: "54%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "26%",
-                    sm: "71px"
-                },
-                left: {
-                    default: "-4%",
-                    sm: "5%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                top: {
-                    default: "26%",
-                    sm: "13%"
-                },
-                right: {
-                    default: "7%",
-                    sm: "-12%"
-                },
-                size: {
-                    default: 22,
-                    sm: 0
-                },
-                delay: 50
-            }, {
-                top: {
-                    default: "46%",
-                    sm: "13%"
-                },
-                right: {
-                    default: "7%",
-                    sm: "-12%"
-                },
-                size: {
-                    default: 22,
-                    sm: 0
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "26%",
-                    sm: "71px"
-                },
-                right: {
-                    default: "4%",
-                    sm: "40%"
-                },
-                size: {
-                    default: 22,
-                    sm: 17
-                },
-                delay: 50
-            }],
-            section4: [{
-                bottom: {
-                    default: "226px"
-                },
-                left: {
-                    default: "10%"
-                },
-                size: {
-                    default: 0,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "141px"
-                },
-                left: {
-                    default: "13%"
-                },
-                size: {
-                    default: 0,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "53px"
-                },
-                left: {
-                    default: "7%"
-                },
-                size: {
-                    default: 0,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "226px"
-                },
-                right: {
-                    default: "36%"
-                },
-                size: {
-                    default: 0,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "141px"
-                },
-                right: {
-                    default: "30%"
-                },
-                size: {
-                    default: 0,
-                    sm: 17
-                },
-                delay: 50
-            }, {
-                bottom: {
-                    default: "53px"
-                },
-                right: {
-                    default: "38%"
-                },
-                size: {
-                    default: 0,
-                    sm: 17
-                },
-                delay: 50
-            }]
-        },
+        section1: [{
+            top: {
+                default: "-15%",
+                sm: "-20%"
+            },
+            left: {
+                default: "-5%",
+                sm: "2%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            top: {
+                default: "-2%",
+                sm: "-30%"
+            },
+            left: {
+                default: "17%",
+                sm: "64%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "10%",
+                sm: "-50%"
+            },
+            left: {
+                default: "-3%",
+                sm: "30%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "-18%",
+                sm: "-50%"
+            },
+            left: {
+                default: "34%",
+                sm: "70%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            top: {
+                default: "-17%",
+                sm: "-15%"
+            },
+            right: {
+                default: "42%",
+                sm: "7%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "-5%",
+                sm: "13%"
+            },
+            right: {
+                default: "22%",
+                sm: "-12%"
+            },
+            size: {
+                default: 22,
+                sm: 0
+            },
+            delay: 50
+        }, {
+            top: {
+                default: "-5%",
+                sm: "13%"
+            },
+            right: {
+                default: "0%",
+                sm: "-12%"
+            },
+            size: {
+                default: 22,
+                sm: 0
+            },
+            delay: 50
+        }],
+        section2: [{
+            bottom: {
+                default: "40px",
+                sm: "-90%"
+            },
+            left: {
+                default: "147px",
+                sm: "5%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "38px",
+                sm: "-113%"
+            },
+            right: {
+                default: "164px",
+                sm: "2%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "18px",
+                sm: "-240%"
+            },
+            right: {
+                default: "30px",
+                sm: "-3%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "18px",
+                sm: "-250%"
+            },
+            left: {
+                default: "30px",
+                sm: "10%"
+            },
+            size: {
+                default: 0,
+                sm: 17
+            },
+            delay: 50
+        }],
+        section3: [{
+            top: {
+                default: "26%",
+                sm: "99px"
+            },
+            left: {
+                default: "-7%",
+                sm: "3%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            top: {
+                default: "46%",
+                sm: "99px"
+            },
+            left: {
+                default: "-7%",
+                sm: "54%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "26%",
+                sm: "71px"
+            },
+            left: {
+                default: "-4%",
+                sm: "5%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            top: {
+                default: "26%",
+                sm: "13%"
+            },
+            right: {
+                default: "7%",
+                sm: "-12%"
+            },
+            size: {
+                default: 22,
+                sm: 0
+            },
+            delay: 50
+        }, {
+            top: {
+                default: "46%",
+                sm: "13%"
+            },
+            right: {
+                default: "7%",
+                sm: "-12%"
+            },
+            size: {
+                default: 22,
+                sm: 0
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "26%",
+                sm: "71px"
+            },
+            right: {
+                default: "4%",
+                sm: "40%"
+            },
+            size: {
+                default: 22,
+                sm: 17
+            },
+            delay: 50
+        }],
+        section4: [{
+            bottom: {
+                default: "226px"
+            },
+            left: {
+                default: "10%"
+            },
+            size: {
+                default: 0,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "141px"
+            },
+            left: {
+                default: "13%"
+            },
+            size: {
+                default: 0,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "53px"
+            },
+            left: {
+                default: "7%"
+            },
+            size: {
+                default: 0,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "226px"
+            },
+            right: {
+                default: "36%"
+            },
+            size: {
+                default: 0,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "141px"
+            },
+            right: {
+                default: "30%"
+            },
+            size: {
+                default: 0,
+                sm: 17
+            },
+            delay: 50
+        }, {
+            bottom: {
+                default: "53px"
+            },
+            right: {
+                default: "38%"
+            },
+            size: {
+                default: 0,
+                sm: 17
+            },
+            delay: 50
+        }]
+    },
         t = {
             section1: [{
                 top: {
@@ -633,10 +633,7 @@
             }]
         };
 
-    function s(e) {
-        const t = window.innerWidth;
-        return "object" != typeof e ? e : t <= 768 && void 0 !== e.sm ? e.sm : t <= 1024 && void 0 !== e.md ? e.md : t <= 1280 && void 0 !== e.ld ? e.ld : e.default
-    }
+    function s(e) { const t = window.innerWidth; return "object" != typeof e ? e : t <= 768 && void 0 !== e.sm ? e.sm : t <= 1024 && void 0 !== e.md ? e.md : t <= 1280 && void 0 !== e.ld ? e.ld : e.default }
 
     function l(e, t, l, d = 0) {
         const a = gsap.timeline({
@@ -769,7 +766,7 @@ function showPopup2() {
 function closePopup2() {
     closeFlipper.classList.remove("active"), wrapper.classList.remove("active"), flipper.classList.remove("active"), clearSelection()
 }
-window.addEventListener("resize", resizeCanvas), window.addEventListener("load", resizeCanvas), document.addEventListener("DOMContentLoaded", (function() {
+window.addEventListener("resize", resizeCanvas), window.addEventListener("load", resizeCanvas), document.addEventListener("DOMContentLoaded", (function () {
     const e = document.querySelector(".section_countdown");
     new IntersectionObserver((t => {
         t.forEach((t => {
@@ -780,7 +777,7 @@ window.addEventListener("resize", resizeCanvas), window.addEventListener("load",
         rootMargin: "100px 0px 100px 0px",
         threshold: 0
     }).observe(e)
-})), document.addEventListener("DOMContentLoaded", (function() {
+})), document.addEventListener("DOMContentLoaded", (function () {
     const e = document.querySelector(".last__section");
     new IntersectionObserver((t => {
         t.forEach((t => {
