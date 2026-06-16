@@ -779,6 +779,7 @@ window.addEventListener("resize", resizeCanvas), window.addEventListener("load",
     }).observe(e)
 })), document.addEventListener("DOMContentLoaded", (function () {
     const e = document.querySelector(".last__section");
+
     new IntersectionObserver((t => {
         t.forEach((t => {
             t.isIntersecting ? e.classList.add("visible") : e.classList.remove("visible")
@@ -807,15 +808,14 @@ let isDragging = !1,
 
 function tryPlayMusic() {
     musicStarted || music.play().then((() => {
-        musicStarted = !0, muteBtn.style.display = "block", console.log("Музика запущена на дотик")
+        musicStarted = !0, muteBtn.style.display = "block"
     })).catch((e => {
-        console.log("Автовідтворення заблоковано:", e)
     }))
 }
 muteBtn?.addEventListener("click", (() => {
     isMuted = !isMuted, music.muted = isMuted, soundOn.style.display = isMuted ? "inline" : "none", soundOff.style.display = isMuted ? "none" : "inline"
 })), document.addEventListener("visibilitychange", (() => {
-    document.hidden ? music.pause() : musicStarted && !isMuted && music.play().catch((e => console.log("Помилка продовження музики:", e)))
+    document.hidden ? music.pause() : musicStarted && !isMuted && music.play().catch((e => console.log("", e)))
 })), window.addEventListener("beforeunload", (() => {
     music.pause(), music.currentTime = 0
 })), document.addEventListener("touchstart", tryPlayMusic, {
